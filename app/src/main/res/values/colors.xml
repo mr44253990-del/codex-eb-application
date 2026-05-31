@@ -1,7 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="eb_primary">#0F8B8D</color>
     <color name="eb_primary_dark">#0B5F61</color>
+    <color name="eb_primary_light">#50B8BA</color>
     <color name="eb_accent">#F4D35E</color>
+    <color name="eb_accent_dark">#D4B33E</color>
     <color name="eb_background">#F8FAFC</color>
+    <color name="eb_surface">#FFFFFF</color>
+    <color name="eb_text_primary">#1A202C</color>
+    <color name="eb_text_secondary">#718096</color>
+    <color name="eb_error">#E53E3E</color>
+    <color name="eb_success">#38A169</color>
+    <color name="eb_splash_bg">#0F8B8D</color>
+    <color name="eb_splash_text">#FFFFFF</color>
 </resources>
-
