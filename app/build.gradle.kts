@@ -43,6 +43,11 @@ android {
         buildConfigField("String", "R2_SECRET_ACCESS_KEY", "\"${secret("R2_SECRET_ACCESS_KEY")}\"")
     }
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     buildFeatures {
         buildConfig = true
     }
