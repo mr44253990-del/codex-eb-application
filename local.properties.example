@@ -1,0 +1,13 @@
+# Copy to local.properties for local development. Do not commit real secrets.
+R2_ACCOUNT_ID=e86734d4b9f828cf4ddc695610c514d0
+R2_BUCKET=rakibul
+R2_PUBLIC_URL=https://pub-d28de9404a364319a313d0b3fefe8b40.r2.dev
+R2_ENDPOINT=https://e86734d4b9f828cf4ddc695610c514d0.r2.cloudflarestorage.com
+R2_ACCESS_KEY_ID=YOUR_R2_ACCESS_KEY_ID
+R2_SECRET_ACCESS_KEY=YOUR_R2_SECRET_ACCESS_KEY
+
+# Optional release signing. In GitHub Actions these are created from secrets.
+ANDROID_KEYSTORE_PATH=
+ANDROID_KEYSTORE_PASSWORD=
+ANDROID_KEY_ALIAS=
+ANDROID_KEY_PASSWORD=
