@@ -23,7 +23,18 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      # ✅ Grant permission to Gradle wrapper
+      # ✅ Install Gradle manually
+      - name: Install Gradle
+        run: |
+          sudo apt update
+          sudo apt install -y gradle
+
+      # ✅ Generate Gradle Wrapper automatically
+      - name: Generate Gradle Wrapper
+        run: |
+          gradle wrapper --gradle-version 8.9
+
+      # ✅ Fix permission
       - name: Grant permission
         run: chmod +x gradlew
 
